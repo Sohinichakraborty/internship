@@ -1,0 +1,25 @@
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 50%; /* Set the width of the sidebar */
+  background-color: #90EE90; /* Grey background color */
+  padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+  flex: 750; /* Set the width of the main content */
+  background-color: #FFEBCD; /* White background color */
+  padding: 20px; /* Some padding */
+}

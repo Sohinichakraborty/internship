@@ -1,0 +1,27 @@
+.header {
+  padding: -5px; /* some padding */
+  text-align: center; /* center the text */
+  background: #F5FFFA; /* green background */
+  color: #1E90FF; /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 50px;
+}
+.header h2 {
+  font-size: 20px;
+ color: BLACK;
+}
+.header h3 {
+  font-size: 15px;
+ color: BLACK;
+}
+.header a {
+  float: right; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /
+}
